@@ -5,7 +5,7 @@ pipeline{
             steps{
                 script{
                     sh """
-                        echo 'This is Build stage'
+                        echo "This is Build stage"
                     """
                 }
             }
@@ -14,7 +14,7 @@ pipeline{
             steps{
                 script{
                     sh """
-                        echo 'This is Test stage'
+                        echo "This is Test stage"
                     """
                 }
             }
